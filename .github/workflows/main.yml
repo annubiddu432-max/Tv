@@ -1,5 +1,5 @@
-:
-name: Build NoAds TV Launcher V4 APK
+
+name: Build NoAds TV 
 
 on:
   workflow_dispatch:
@@ -26,4 +26,5 @@ jobs:
         with:
           name: NoAdsTVLauncher-V4-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+
           
